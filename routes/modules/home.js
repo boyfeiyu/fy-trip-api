@@ -11,7 +11,7 @@ router.get('/houselist', function (req, res, next) {
   const page = parseInt(req.query.page)
   res.send(houseList[page - 1])
 })
-router.get('/hotSuggsets', function (req, res, next) {
+router.get('/hotSuggests', function (req, res, next) {
   res.send(hotSuggestsData)
 })
 
